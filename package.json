@@ -1,0 +1,33 @@
+{
+  "name": "linkparser",
+  "version": "1.0.0",
+  "description": "A library that parses and check for broken links on Markdown files",
+  "main": "./cli.js",
+  "bin": {
+    "linkparser": "./cli.js"
+  },
+  "preferGlobal": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cli": "node cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/sglauber/linkParser.git"
+  },
+  "keywords": [
+    "markdown",
+    "parser",
+    "link",
+    "checker"
+  ],
+  "author": "Glauber Santana",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sglauber/linkParser/issues"
+  },
+  "homepage": "https://github.com/sglauber/linkParser#readme",
+  "dependencies": {
+    "node-fetch": "^2.6.7"
+  }
+}
